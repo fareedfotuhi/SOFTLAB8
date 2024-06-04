@@ -69,7 +69,7 @@ public class Parser {
                         Log.print(/*"new State : " + */parsStack.peek() + "");
 //                        Log.print("");
                         try {
-                            cg.semanticFunction(rule.semanticAction, lookAhead);
+                            cg.semanticFunction(rule.getSemanticAction(), lookAhead);
                         } catch (Exception e) {
                             Log.print("Code Genetator Error");
                         }
