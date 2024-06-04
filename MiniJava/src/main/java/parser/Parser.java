@@ -71,7 +71,7 @@ public class Parser {
                         try {
                             cg.semanticFunction(rule.getSemanticAction(), lookAhead);
                         } catch (Exception e) {
-                            Log.print("Code Genetator Error");
+                            Log.print("Code Generator Error");
                         }
                         break;
                     case accept:
